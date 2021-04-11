@@ -131,7 +131,8 @@ require (
 	github.com/raulk/go-watchdog v1.0.1
 	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/stretchr/testify v1.7.0
-	github.com/syndtr/goleveldb v1.0.0
+	github.com/syndtr/goleveldb v1.0.1-0.20190318030020-c3a204f8e965
+	github.com/tikv/client-go v0.0.0-20210303085855-1be793c46812
 	github.com/urfave/cli/v2 v2.2.0
 	github.com/whyrusleeping/bencher v0.0.0-20190829221104-bb6607aa8bba
 	github.com/whyrusleeping/cbor-gen v0.0.0-20210219115102-f37d292932f2
@@ -142,10 +143,10 @@ require (
 	go.etcd.io/bbolt v1.3.4
 	go.opencensus.io v0.22.5
 	go.uber.org/dig v1.10.0 // indirect
-	go.uber.org/fx v1.9.0
+	go.uber.org/fx v1.10.0
 	go.uber.org/multierr v1.6.0
 	go.uber.org/zap v1.16.0
-	golang.org/x/net v0.0.0-20201022231255-08b38378de70
+	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
 	golang.org/x/sys v0.0.0-20201119102817-f84b799fce68
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0

@@ -57,6 +57,11 @@ func FromDatastore(dstore ds.Batching) Blockstore {
 	return WrapIDStore(blockstore.NewBlockstore(dstore))
 }
 
+// FromTiKVStore creates a new blockstore backed by the given TiKVStore
+func FromTiKVStore(kvstore *TiKVStore) Blockstore {
+	return WrapIDStore(kvstore)
+}
+
 type adaptedBlockstore struct {
 	blockstore.Blockstore
 }
